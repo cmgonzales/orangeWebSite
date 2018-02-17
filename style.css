@@ -11,8 +11,29 @@ nav{
   width: 65%;
 
 }
+
+
+@media only screen and (max-device-width: 1284px) {
+  nav { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  nav { 
+    width: 95%;
+}
+}
+
+
 .orange{
   float: left;
+}
+
+@media only screen and (max-device-width: 360px) {
+  .orange{ 
+    width: 95%;
+}
 }
 
 ul{
@@ -45,6 +66,12 @@ font-size: 32px;
   margin-right: 200px;
   color: white;
 }
+
+@media only screen and (max-device-width: 431px) {
+  .z { 
+    margin-right: 100px;
+}
+}
 sup{
   vertical-align: 85%;
  line-height: 15px;
@@ -54,10 +81,39 @@ sup{
   margin-left: 10px;
   padding-right: 50px;
 }
+
+@media only screen and (max-device-width: 489px) {
+  .w { 
+    margin-left: 2px;
+    padding-right: 20px;
+}
+}
+
+@media only screen and (max-device-width: 451px) {
+  .w { 
+    margin-left: 0;
+    padding-right:5px;
+}
+}
+
+
+
 .hr{
   width: 65%;
   background-color: white;
   margin: 0 auto;
+}
+
+@media only screen and (max-device-width: 1284px) {
+  .hr { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  .hr { 
+    width: 95%;
+}
 }
 hr{
   border-color: red;
@@ -79,6 +135,32 @@ input{
   margin-right: 0px;
   background-color: rgb(245,245,245);
 }
+
+
+@media only screen and (max-device-width: 660px) {
+  .wrap { 
+    margin-left: 150px;
+}
+}
+
+
+@media only screen and (max-device-width: 660px) {
+  .wrap { 
+    margin-left: 50px;
+}
+}
+
+@media only screen and (max-device-width: 489px) {
+  .wrap { 
+    margin-left: 10px;
+}
+}
+@media only screen and (max-device-width: 489px) {
+  .wrap { 
+    margin-left: 0px;
+}
+}
+
 button{
 border: none;
 background-color: transparent;
@@ -90,6 +172,15 @@ cursor: pointer;
   margin-right: 20px;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+
+@media only screen and (max-device-width: 984px) {
+  .orange { 
+    margin-right: 5px;
+    padding-right: 5px;
+
+}
 }
 .one{
   display: inline-block;
@@ -119,6 +210,22 @@ margin-right: 50px;
   margin-right: 5px;
 }
 
+@media only screen and (max-device-width: 398px) {
+  .b { 
+   padding-right: 4px;
+   margin-right: 5px;
+   padding-left: 4px;
+   font-size: 8px;
+}
+}
+
+@media only screen and (max-device-width: 398px) {
+  .a { 
+   
+   font-size: 8px;
+}
+}
+
 .bottom{
   background-color: white;
   margin-top: 0;
@@ -129,13 +236,26 @@ margin-right: 50px;
   margin: 0 auto;
 }
 
+
+@media only screen and (max-device-width: 1284px) {
+  .bottom { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  .bottom { 
+    width: 95%;
+}
+}
+
 .body{
 
   margin: 0 auto;
   ;
   background-color: black;
 }
-#test{
+.test{
  width: 65%;
  margin: 0 auto;
  padding-top: 0px;
@@ -143,10 +263,29 @@ margin-right: 50px;
  background-color: white;
 
 }
+
+
+@media only screen and (max-device-width: 1284px) {
+  .test { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  .test { 
+    width: 95%;
+}
+}
 .em{
   display: inline-block;
   padding-left: 180px;
   padding-right: 0;
+}
+
+@media only screen and (max-device-width: 389px) {
+  .em { 
+    padding-left: 150px;
+}
 }
 .blue{
   color: blue;
@@ -159,8 +298,21 @@ footer{
   width: 65%;
   margin: 0 auto;
 }
-@media only screen and (max-width: 500px) {
-     {
-        background-color: lightblue;
-    }
+
+
+@media only screen and (max-device-width: 1284px) {
+  footer { 
+    width: 85%;
+}
+}
+@media only screen and (max-device-width: 843px) {
+  footer { 
+    width: 95%;
+}
+}
+
+@media only screen and (max-device-width: 750px) {
+  .navi { 
+    display: none;
+}
 }
