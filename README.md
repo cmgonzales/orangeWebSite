@@ -1,1 +1,1 @@
-PSD conversion with CSS and responsive
+PSD conversion with responsive webpage
